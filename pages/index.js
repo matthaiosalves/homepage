@@ -164,10 +164,9 @@ const Home = () => (
         
           <GridItem
             href="https://www.youtube.com/channel/UCIaxuAfnfupWAYS4GZlPIlw"
-            title="Dev as Life"
+            title="Meu Canal no Youtube."
             thumbnail={thumbYouTube}
           >
-            Meu Canal no Youtube.
           </GridItem>
     
         </SimpleGrid>
