@@ -83,11 +83,6 @@ const Works = () => (
             Este é um website desenvolvido para uma instituição de um RPG chamado Habbo.
           </WorkGridItem>
         </Section>
-        <Section delay={0.3}>
-          <WorkGridItem id="styly" thumbnail={thumbStyly} title="Styly">
-            A VR Creative tools for fashion brands
-          </WorkGridItem>
-        </Section>
       </SimpleGrid>
 
       {/* <Section delay={0.4}>
