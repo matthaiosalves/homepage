@@ -96,11 +96,11 @@ const Home = () => (
           Graduei-me no Ensino Médio pela Faculdade Mauá do Distrito Federal.
         </BioSection>
         <BioSection>
-          <BioYear>2019 até hoje.</BioYear>
+          <BioYear>2019 - </BioYear>
           Trabalhando como freelancer.
         </BioSection>
         <BioSection>
-          <BioYear>2021 até hoje.</BioYear>
+          <BioYear>2021 - </BioYear>
           Trabalhando como desenvolvedor Front-End na Coopers
         </BioSection>
         <BioSection>
