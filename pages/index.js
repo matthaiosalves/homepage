@@ -64,13 +64,13 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Trabalho
+          Descrição
         </Heading>
         <Paragraph>
           Sou formado em Análise e Desenvolvimento de Sistemas.
           Tenho facilidade para compreender as demandas e explicar de uma forma didática para todos os envolvidos e interessados no projeto (gestores, desenvolvedores, designers, usuários).
           Caso tenha qualquer curiosidade, pode-se conferir meus trabalhos em meu {' '}
-          <NextLink href="https://github.com/matthaiosalves">
+          <NextLink href="/works">
             <Link>portfolio</Link>
           </NextLink>
         </Paragraph>
@@ -101,7 +101,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2021 - </BioYear>
-          Trabalhando como desenvolvedor Front-End na Coopers
+          Trabalhando como desenvolvedor Front-End na Coopers.
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
