@@ -20,6 +20,8 @@ import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 
+import thumbYouTube from '../public/images/works/youtube-thumb.jpg'
+
 
 const Home = () => (
   <Layout>
