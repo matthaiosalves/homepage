@@ -57,7 +57,7 @@ const Navbar = props => {
         align="center"
         justify="space-between"
       >
-        <Flex display="flex" align="center" mr={5} justify="center">
+        <Flex align="center" mr={5}>
           <Heading as="h1" size="lg" letterSpacing={'tighter'}>
             <Logo />
           </Heading>
@@ -70,6 +70,7 @@ const Navbar = props => {
           alignItems="center"
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
+          justify="center"
         >
           <LinkItem href="/works" path={path}>
             Trabalhos
