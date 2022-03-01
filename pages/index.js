@@ -170,7 +170,14 @@ const Home = () => (
           </ListItem>
         </List>
 
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+        <SimpleGrid columns={[1, 1]} gap={6}>
+
+        <GridItem
+            href="/Curriculo-Matheus-Alves.pdf"
+            title="Meu Currículo"
+            thumbnail={thumbCurriculo}
+          >
+          </GridItem>
         
           <GridItem
             href="https://www.youtube.com/channel/UCIaxuAfnfupWAYS4GZlPIlw"
@@ -178,14 +185,7 @@ const Home = () => (
             thumbnail={thumbYouTube}
           >
           </GridItem>
-
-          <GridItem
-            href="/Curriculo-Matheus-Alves.pdf"
-            title="Meu Currículo"
-            thumbnail={thumbCurriculo}
-          >
-          </GridItem>
-    
+          
         </SimpleGrid>
 
         <Box align="center" my={4}>
