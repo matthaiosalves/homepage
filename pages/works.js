@@ -50,7 +50,7 @@ const Works = () => (
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem id="BellaZen" title="Bella Zen" href="https://bella-zen-spa.netlify.app/" thumbnail={thumbBellaZen}>
+          <WorkGridItem id="https://bella-zen-spa.netlify.app/" title="Bella Zen" href="https://bella-zen-spa.netlify.app/" thumbnail={thumbBellaZen}>
             Este é um website de vitrine para uma empresa especializada em Spar em Brasília - DF.
           </WorkGridItem>
         </Section>
