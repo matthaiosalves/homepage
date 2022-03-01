@@ -71,7 +71,7 @@ const Works = () => (
         </Heading>
       </Section>
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <SimpleGrid columns={[1]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem
             href="https://github.com/matthaiosalves/Segunda-Companhia"
