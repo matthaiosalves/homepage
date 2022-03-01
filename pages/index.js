@@ -21,6 +21,7 @@ import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 
 import thumbYouTube from '../public/images/works/youtube-thumb.jpg'
+import thumbCurriculo from '../public/images/works/curriculo-matheus.jpg'
 
 
 const Home = () => (
@@ -169,12 +170,19 @@ const Home = () => (
           </ListItem>
         </List>
 
-        <SimpleGrid columns={[1]} gap={6}>
+        <SimpleGrid columns={[1, 1]} gap={6}>
         
           <GridItem
             href="https://www.youtube.com/channel/UCIaxuAfnfupWAYS4GZlPIlw"
             title="Meu Canal no Youtube."
             thumbnail={thumbYouTube}
+          >
+          </GridItem>
+
+          <GridItem
+            href="/Curriculo-Matheus-Alves.pdf"
+            title="Meu Currículo"
+            thumbnail={thumbCurriculo}
           >
           </GridItem>
     
