@@ -158,7 +158,7 @@ const Home = () => (
           </ListItem>
         </List>
 
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+        <SimpleGrid columns={[1]} gap={6}>
         
           <GridItem
             href="https://www.youtube.com/channel/UCIaxuAfnfupWAYS4GZlPIlw"
