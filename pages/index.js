@@ -20,7 +20,7 @@ import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 
-import thumbYouTube from '../public/images/trabalho/youtube-thumb.jpg'
+import thumbYouTube from '../public/images/works/youtube-thumb.jpg'
 
 
 const Home = () => (
@@ -77,7 +77,7 @@ const Home = () => (
           .
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/trabalho">
+          <NextLink href="/works">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               Meu portfolio
             </Button>
