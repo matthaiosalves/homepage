@@ -69,12 +69,10 @@ const Home = () => (
         <Paragraph>
           Sou formado em Análise e Desenvolvimento de Sistemas.
           Tenho facilidade para compreender as demandas e explicar de uma forma didática para todos os envolvidos e interessados no projeto (gestores, desenvolvedores, designers, usuários).
-          Caso tenha qualquer curiosidade, pode-se conferir meus trabalhos em meu 
-          {' '}
+          Caso tenha qualquer curiosidade, pode-se conferir meus trabalhos em meu {' '}
           <NextLink href="https://github.com/matthaiosalves">
             <Link>portfolio</Link>
           </NextLink>
-          .
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
@@ -103,7 +101,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2021 até hoje.</BioYear>
-          Trabalhando como desenvolvedor Front-End na {' '}.
+          Trabalhando como desenvolvedor Front-End na {' '}
         </BioSection>
         <NextLink href="https://coopers.pro/pt/projetos.html">
             <Link>Coopers</Link>
