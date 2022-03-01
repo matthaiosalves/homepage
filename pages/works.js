@@ -24,14 +24,14 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 1, 1, 2]} gap={6}>
 
         <Section>
-          <WorkGridItem id="https://mafia-da-batata.netlify.app/" title="Mafia da Batata" href="https://mafia-da-batata.netlify.app/" thumbnail={thumbMafiaBatata}>
+          <WorkGridItem title="Mafia da Batata" href="https://mafia-da-batata.netlify.app/" thumbnail={thumbMafiaBatata}>
             Este é um website com menu dinâmico que possibilita o cliente escolher seus pedidos e realizar o Check-in direto no WhatsApp do restaurante.
           </WorkGridItem>
         </Section>
 
         <Section>
           <WorkGridItem
-            id="https://docsneakers.netlify.app/"
+            href="https://docsneakers.netlify.app/"
             title="Docsneakers"
             href="https://docsneakers.netlify.app/"
             thumbnail={thumbDocTenis}
@@ -51,13 +51,13 @@ const Works = () => (
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem id="https://bella-zen-spa.netlify.app/" title="Bella Zen" href="https://bella-zen-spa.netlify.app/" thumbnail={thumbBellaZen}>
+          <WorkGridItem href="https://bella-zen-spa.netlify.app/" title="Bella Zen" thumbnail={thumbBellaZen}>
             Este é um website de vitrine para uma empresa especializada em Spar em Brasília - DF.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem id="https://araujo-store-uniplan.netlify.app/" href="https://araujo-store-uniplan.netlify.app/" thumbnail={thumbArujoShoes} title="Araujo Shoes">
+          <WorkGridItem href="https://araujo-store-uniplan.netlify.app/" thumbnail={thumbArujoShoes} title="Araujo Shoes">
             Este é um website de vitrine com possibilidade de vendas on-line para uma Web Store de Brasília - DF.
           </WorkGridItem>
         </Section>
@@ -74,7 +74,6 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem
-            id="https://github.com/matthaiosalves/Segunda-Companhia"
             href="https://github.com/matthaiosalves/Segunda-Companhia"
             thumbnail={thumbSegundaCP}
             title="Segunda Companhia - EB"
