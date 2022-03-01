@@ -31,7 +31,6 @@ const Works = () => (
 
         <Section>
           <WorkGridItem
-            id="DocTenis"
             title="Docsneakers"
             href="https://docsneakers.netlify.app/"
             thumbnail={thumbDocTenis}
@@ -42,7 +41,6 @@ const Works = () => (
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="MarinhaHotel"
             title="Hotel Management"
             href="#"
             thumbnail={thumbMarinhaBrasil}
@@ -75,7 +73,6 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem
-            id="modetokyo"
             href="https://github.com/matthaiosalves/Segunda-Companhia"
             thumbnail={thumbSegundaCP}
             title="Segunda Companhia - EB"
