@@ -101,11 +101,8 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2021 até hoje.</BioYear>
-          Trabalhando como desenvolvedor Front-End na {' '}
+          Trabalhando como desenvolvedor Front-End na Coopers
         </BioSection>
-        <NextLink href="https://coopers.pro/pt/projetos.html">
-            <Link>Coopers</Link>
-          </NextLink>
         <BioSection>
           <BioYear>2022</BioYear>
           Graduei-me em Análise e desenvolvimento de sistemas pelo Centro Universitário Planalto do Distrito Federal  (UNIPLAN).
