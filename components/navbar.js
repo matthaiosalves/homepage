@@ -87,7 +87,7 @@ const Navbar = props => {
             pl={2}
           >
             <IoLogoGithub />
-            Source
+            Repositório
           </LinkItem>
         </Stack>
 
@@ -116,7 +116,7 @@ const Navbar = props => {
                   as={Link}
                   href="https://github.com/matthaiosalves"
                 >
-                  View Source
+                  Repositório
                 </MenuItem>
               </MenuList>
             </Menu>
