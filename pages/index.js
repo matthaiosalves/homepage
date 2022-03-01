@@ -33,7 +33,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Olá, sou um desenvolvedor Front-End baseado no Brasil, Brasília-DF.
+        Olá, sou um desenvolvedor Front-End baseado no Brasil
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -69,9 +69,9 @@ const Home = () => (
         <Paragraph>
           Sou formado em Análise e Desenvolvimento de Sistemas.
           Tenho facilidade para compreender as demandas e explicar de uma forma didática para todos os envolvidos e interessados no projeto (gestores, desenvolvedores, designers, usuários).
-          Caso tenha qualquer curiosidade, pode-se conferir meus trabalhos em meu portfolio.
+          Caso tenha qualquer curiosidade, pode-se conferir meus trabalhos em meu 
           {' '}
-          <NextLink href="/works/inkdrop">
+          <NextLink href="https://github.com/matthaiosalves">
             <Link>portfolio</Link>
           </NextLink>
           .
@@ -116,7 +116,7 @@ const Home = () => (
           Eu ♥
         </Heading>
         <Paragraph>
-          Filosofia, Música and Jiu Jitsu.
+          Filosofia, Música e Jiu Jitsu.
         </Paragraph>
       </Section>
 
