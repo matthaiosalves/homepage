@@ -156,6 +156,17 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
+          <ListItem>
+            <Link href="https://www.linkedin.com/in/matheusalveso/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoLogoLinkedin} />}
+              >
+                Matheus Alves
+              </Button>
+            </Link>
+          </ListItem>
         </List>
 
         <SimpleGrid columns={[1]} gap={6}>
