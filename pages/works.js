@@ -3,54 +3,63 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
-import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
-import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
-import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
-import thumbStyly from '../public/images/works/styly_eyecatch.png'
-import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
-import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
-import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
+/*Trabalhos*/ 
+import thumbMafiaBatata from '../public/images/works/mafia-batata.gif'
+import thumbDocTenis from '../public/images/works/doc-tenis.png'
+import thumbMarinhaBrasil from '../public/images/works/project-9.png'
+import thumbBellaZen from '../public/images/works/bella-zen.png'
+import thumbArujoShoes from '../public/images/works/araujo.png'
+
+/*Colabs*/
+import thumbSegundaCP from '../public/images/works/SegundaCP.jpg'
+
 
 const Works = () => (
   <Layout title="Works">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Works
+        Trabalhos
       </Heading>
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <SimpleGrid columns={[1, 1, 1, 1, 2]} gap={6}>
+
         <Section>
-          <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
-            A Markdown note-taking app with 100+ plugins, cross-platform and
-            encrypted data sync support
+          <WorkGridItem id="MafiaBatata" title="Mafia da Batata" href="https://mafia-da-batata.netlify.app/" thumbnail={thumbMafiaBatata}>
+            Este é um website com menu dinâmico que possibilita o cliente escolher seus pedidos e realizar o Check-in direto no WhatsApp do restaurante.
           </WorkGridItem>
         </Section>
+
         <Section>
           <WorkGridItem
-            id="walknote"
-            title="walknote"
-            thumbnail={thumbWalknote}
+            id="DocTenis"
+            title="Docsneakers"
+            href="https://docsneakers.netlify.app/"
+            thumbnail={thumbDocTenis}
           >
-            Music recommendation app for iOS
+            Este é um website de "vitrine" com possibilidade de vendas on-line para uma "Web Store" de Brasília - DF.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="fourpainters"
-            title="The four painters"
-            thumbnail={thumbFourPainters}
+            id="MarinhaHotel"
+            title="Hotel Management"
+            href="#"
+            thumbnail={thumbMarinhaBrasil}
           >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
+            Este é um Software em C# (C-Sharp) de Gestão de Hotelaria desenvolvido para a Marinha do Brasil.
           </WorkGridItem>
         </Section>
+
         <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
+          <WorkGridItem id="BellaZen" title="Bella Zen" href="https://bella-zen-spa.netlify.app/" thumbnail={thumbBellaZen} title="Bella Zen">
+            Este é um website de "vitrine" para uma empresa especializada em Spar em Brasília - DF.
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.1}>
+          <WorkGridItem id="AraujoShoes" href="https://araujo-store-uniplan.netlify.app/" thumbnail={thumbArujoShoes} title="Araujo Shoes">
+            Este é um website de "vitrine" com possibilidade de vendas on-line para uma "Web Store" de Brasília - DF.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -59,7 +68,7 @@ const Works = () => (
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Collaborations
+          Colaborações
         </Heading>
       </Section>
 
@@ -67,10 +76,11 @@ const Works = () => (
         <Section delay={0.3}>
           <WorkGridItem
             id="modetokyo"
-            thumbnail={thumbModeTokyo}
-            title="mode.tokyo"
+            href="https://github.com/matthaiosalves/Segunda-Companhia"
+            thumbnail={thumbSegundaCP}
+            title="Segunda Companhia - EB"
           >
-            The mode magazine for understanding to personally enjoy Japan
+            Este é um website desenvolvido para uma instituição de um RPG chamado Habbo.
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
@@ -80,15 +90,15 @@ const Works = () => (
         </Section>
       </SimpleGrid>
 
-      <Section delay={0.4}>
+      {/* <Section delay={0.4}>
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Old works
+          Acadêmicos
         </Heading>
-      </Section>
+      </Section> */}
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      {/* <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
           <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
             Twitter client app for iPhone Safari
@@ -109,7 +119,8 @@ const Works = () => (
             Windows
           </WorkGridItem>
         </Section>
-      </SimpleGrid>
+      </SimpleGrid> */}
+
     </Container>
   </Layout>
 )

@@ -3,29 +3,29 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
-import thumb500PaidUsers from '../public/images/contents/blog-500-paid-users.jpg'
-import thumbFinancialGoal from '../public/images/contents/blog-financial-goal.png'
-import thumbHowToPriceYourself from '../public/images/contents/blog-how-to-price-yourself.jpg'
-import thumb50xFaster from '../public/images/contents/youtube-50x-faster.jpg'
+import thumbFlashPlayer from '../public/images/contents/habbo-flash-player-electron.jpg'
+import thumbHabboAir from '../public/images/contents/habbo-air-mobile.jpg'
+import thumbFlashPlayerExtension from '../public/images/contents/habbo-flash-player-extension.jpg'
+import thumbLepatto from '../public/images/contents/habbo-anti-lag.jpg'
 
 const Posts = () => (
   <Layout title="Posts">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Popular Posts
+        Posts Populares
       </Heading>
 
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            title="My Fish workflow"
-            thumbnail={thumbFishWorkflow}
-            href="https://www.youtube.com/watch?v=KKxhf50FIPI"
+            title="Habbo Flash Player Extension"
+            thumbnail={thumbFlashPlayerExtension}
+            href="https://youtu.be/Wp3o0evQfqc"
           />
           <GridItem
-            title="My desk setup (Late 2020)"
-            thumbnail={thumbMyDeskSetup}
-            href="https://www.youtube.com/watch?v=1OFDMwDlnOE"
+            title="Habbo Air (Mobile)"
+            thumbnail={thumbHabboAir}
+            href="https://youtu.be/zeI5YXFoyy0"
           />
         </SimpleGrid>
       </Section>
@@ -33,32 +33,28 @@ const Posts = () => (
       <Section delay={0.3}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            title="How I’ve Attracted The First 500 Paid Users For My SaaS That Costs $5/mo"
-            thumbnail={thumb500PaidUsers}
-            href="https://blog.inkdrop.app/how-ive-attracted-the-first-500-paid-users-for-my-saas-that-costs-5-mo-7a5b94b8e820"
+            title="Habbo Flash Electron"
+            thumbnail={thumbFlashPlayer}
+            href="https://youtu.be/y5AyTSAiovA"
           />
           <GridItem
-            title="I stopped setting a financial goal for my SaaS"
-            thumbnail={thumbFinancialGoal}
-            href="https://blog.inkdrop.app/i-stopped-setting-a-financial-goal-for-my-saas-a92c3db65506"
+            title="Habbo Air Facebook (Mobile)"
+            thumbnail={thumbHabboAir}
+            href="https://youtu.be/dGcEkh76n8o"
           />
         </SimpleGrid>
       </Section>
 
-      <Section delay={0.5}>
+      <Section delay={0.3}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            title="How to Price Yourself as a Freelance Developer"
-            thumbnail={thumbHowToPriceYourself}
-            href="https://blog.inkdrop.app/how-to-price-yourself-as-a-freelance-developer-3453dfd59d91"
-          />
-          <GridItem
-            title="I made my React Native app 50x faster"
-            thumbnail={thumb50xFaster}
-            href="https://www.youtube.com/watch?v=vj723NlrIQc"
+            title="Anti Lag Habbo - Lepatto"
+            thumbnail={thumbLepatto}
+            href="https://youtu.be/Dqigjdi6w1o"
           />
         </SimpleGrid>
       </Section>
+
     </Container>
   </Layout>
 )

@@ -31,15 +31,15 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hello, I&apos;m a full-stack developer based in Japan!
+        Olá, sou um desenvolvedor Front-End baseado no Brasil, Brasília-DF.
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Matheus Alves
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Desenvolvedor Front-End ( Next.js / Wordpress )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -54,7 +54,7 @@ const Home = () => (
             maxWidth="100px"
             display="inline-block"
             borderRadius="full"
-            src="/images/takuya.jpg"
+            src="/images/matheus.jpg"
             alt="Profile image"
           />
         </Box>
@@ -62,24 +62,22 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          Trabalho
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
+          Sou formado em Análise e Desenvolvimento de Sistemas.
+          Tenho facilidade para compreender as demandas e explicar de uma forma didática para todos os envolvidos e interessados no projeto (gestores, desenvolvedores, designers, usuários).
+          Caso tenha qualquer curiosidade, pode-se conferir meus trabalhos em meu portfolio.
+          {' '}
           <NextLink href="/works/inkdrop">
-            <Link>Inkdrop</Link>
+            <Link>portfolio</Link>
           </NextLink>
           .
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
+              Meu portfolio
             </Button>
           </NextLink>
         </Box>
@@ -90,114 +88,92 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>2000</BioYear>
+          Natural do Rio de Janeiro, Brasíl.
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
+          <BioYear>2018</BioYear>
+          Graduei-me no Ensino Médio pela Faculdade Mauá do Distrito Federal.
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
+          <BioYear>2019 até hoje.</BioYear>
+          Trabalhando como freelancer.
         </BioSection>
         <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Works as a freelance
+          <BioYear>2021 até hoje.</BioYear>
+          Trabalhando como desenvolvedor Front-End na Coopers.
+        </BioSection>
+        <BioSection>
+          <BioYear>2022</BioYear>
+          Graduei-me Em Análise e desenvolvimento de sistemas pelo Centro Universitário Planalto do Distrito Federal  (UNIPLAN).
         </BioSection>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          I ♥
+          Eu ♥
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
-          </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
-          </Link>
-          , Leica, Machine Learning
+          Filosofia, Música and Jiu Jitsu.
         </Paragraph>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          On the web
+         Na web
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/matthaiosalves" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoGithub} />}
               >
-                @craftzdog
+                @MatthaiosAlves
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+            <Link href="https://twitter.com/MatthaiosAlves" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoTwitter} />}
               >
-                @inkdrop_app (English)
+                @MatthaiosAlves
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<Icon as={IoLogoTwitter} />}
-              >
-                @craftzdog (日本語)
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
+            <Link href="https://instagram.com/matthaiosalves" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoInstagram} />}
               >
-                @craftzdog
+                @matthaiosalves
               </Button>
             </Link>
           </ListItem>
         </List>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
+        
           <GridItem
-            href="https://www.youtube.com/devaslife"
+            href="https://www.youtube.com/channel/UCIaxuAfnfupWAYS4GZlPIlw"
             title="Dev as Life"
             thumbnail={thumbYouTube}
           >
-            My YouTube channel
+            Meu Canal no Youtube.
           </GridItem>
-          <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
-            thumbnail={thumbInkdrop}
-          >
-            A Markdown note-taking app
-          </GridItem>
+    
         </SimpleGrid>
 
         <Box align="center" my={4}>
           <NextLink href="/posts">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Popular posts
+              Posts Populares
             </Button>
           </NextLink>
         </Box>
