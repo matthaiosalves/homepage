@@ -27,7 +27,7 @@ const Main = ({ children, router }) => {
         <meta property="og:site_name" content="Matheus Alves Portfólio" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/card.png" />
-        <title>Matheus Alves - Portfólio</title>
+        <title>Matheus Alves - Portfolio</title>
       </Head>
 
       <NavBar path={router.asPath} />
