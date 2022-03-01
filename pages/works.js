@@ -4,18 +4,18 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 /*Trabalhos*/ 
-import thumbMafiaBatata from '../public/images/works/mafia-batata.gif'
-import thumbDocTenis from '../public/images/works/doc-tenis.png'
-import thumbMarinhaBrasil from '../public/images/works/project-9.png'
-import thumbBellaZen from '../public/images/works/bella-zen.png'
-import thumbArujoShoes from '../public/images/works/araujo.png'
+import thumbMafiaBatata from '../public/images/trabalho/mafia-batata.gif'
+import thumbDocTenis from '../public/images/trabalho/doc-tenis.png'
+import thumbMarinhaBrasil from '../public/images/trabalho/project-9.png'
+import thumbBellaZen from '../public/images/trabalho/bella-zen.png'
+import thumbArujoShoes from '../public/images/trabalho/araujo.png'
 
 /*Colabs*/
-import thumbSegundaCP from '../public/images/works/SegundaCP.jpg'
+import thumbSegundaCP from '../public/images/trabalho/SegundaCP.jpg'
 
 
-const Works = () => (
-  <Layout title="Works">
+const trabalho = () => (
+  <Layout title="trabalho">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
         Trabalhos
@@ -120,4 +120,4 @@ const Works = () => (
   </Layout>
 )
 
-export default Works
+export default trabalho
