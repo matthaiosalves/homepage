@@ -31,7 +31,6 @@ const Works = () => (
 
         <Section>
           <WorkGridItem
-            href="https://docsneakers.netlify.app/"
             title="Docsneakers"
             href="https://docsneakers.netlify.app/"
             thumbnail={thumbDocTenis}
