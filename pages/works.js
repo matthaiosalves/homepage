@@ -24,7 +24,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 1, 1, 2]} gap={6}>
 
         <Section>
-          <WorkGridItem title="Mafia da Batata" href="https://mafia-da-batata.netlify.app/" thumbnail={thumbMafiaBatata}>
+          <WorkGridItem id="MafiaBatata" title="Mafia da Batata" href="https://mafia-da-batata.netlify.app/" thumbnail={thumbMafiaBatata}>
             Este é um website com menu dinâmico que possibilita o cliente escolher seus pedidos e realizar o Check-in direto no WhatsApp do restaurante.
           </WorkGridItem>
         </Section>
@@ -50,13 +50,13 @@ const Works = () => (
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem title="Bella Zen" href="https://bella-zen-spa.netlify.app/" thumbnail={thumbBellaZen}>
+          <WorkGridItem id="BellaZen" title="Bella Zen" href="https://bella-zen-spa.netlify.app/" thumbnail={thumbBellaZen}>
             Este é um website de vitrine para uma empresa especializada em Spar em Brasília - DF.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem href="https://araujo-store-uniplan.netlify.app/" thumbnail={thumbArujoShoes} title="Araujo Shoes">
+          <WorkGridItem id="AraujoShoes" href="https://araujo-store-uniplan.netlify.app/" thumbnail={thumbArujoShoes} title="Araujo Shoes">
             Este é um website de vitrine com possibilidade de vendas on-line para uma Web Store de Brasília - DF.
           </WorkGridItem>
         </Section>
