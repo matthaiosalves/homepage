@@ -87,7 +87,7 @@ const Navbar = props => {
             pl={2}
           >
             <IoLogoGithub />
-            Repositório
+            Github
           </LinkItem>
         </Stack>
 
