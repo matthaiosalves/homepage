@@ -36,7 +36,7 @@ const Works = () => (
             href="https://docsneakers.netlify.app/"
             thumbnail={thumbDocTenis}
           >
-            Este é um website de "vitrine" com possibilidade de vendas on-line para uma "Web Store" de Brasília - DF.
+            Este é um website de vitrine com possibilidade de vendas on-line para uma Web Store de Brasília - DF.
           </WorkGridItem>
         </Section>
 
@@ -52,14 +52,14 @@ const Works = () => (
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem id="BellaZen" title="Bella Zen" href="https://bella-zen-spa.netlify.app/" thumbnail={thumbBellaZen} title="Bella Zen">
-            Este é um website de "vitrine" para uma empresa especializada em Spar em Brasília - DF.
+          <WorkGridItem id="BellaZen" title="Bella Zen" href="https://bella-zen-spa.netlify.app/" thumbnail={thumbBellaZen}>
+            Este é um website de vitrine para uma empresa especializada em Spar em Brasília - DF.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem id="AraujoShoes" href="https://araujo-store-uniplan.netlify.app/" thumbnail={thumbArujoShoes} title="Araujo Shoes">
-            Este é um website de "vitrine" com possibilidade de vendas on-line para uma "Web Store" de Brasília - DF.
+            Este é um website de vitrine com possibilidade de vendas on-line para uma Web Store de Brasília - DF.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
