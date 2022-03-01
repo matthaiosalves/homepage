@@ -105,7 +105,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          Graduei-me em Análise e desenvolvimento de sistemas pelo Centro Universitário Planalto do Distrito Federal  (UNIPLAN).
+          Graduei-me em Análise e Desenvolvimento de Sistemas pelo Centro Universitário Planalto do Distrito Federal  (UNIPLAN).
         </BioSection>
       </Section>
 
