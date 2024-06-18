@@ -26,13 +26,13 @@ const projects = [
     {
         imgSrc: "assets/img/fatalmodel.png",
         subtitle: "Web",
-        title: "Plataforma de sorteio",
+        title: "Torcedor Fatal",
         link: "assets/img/torcedorfatalpage.png"
     },
     {
         imgSrc: "assets/img/desafioxpnba.png",
         subtitle: "Web",
-        title: "Plataforma de sorteio",
+        title: "Desafio impossível XP/NBA",
         link: "assets/img/desafioxpnbapage.png"
     },
 ];
