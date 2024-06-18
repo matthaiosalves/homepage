@@ -14,13 +14,13 @@ const projects = [
     {
         imgSrc: "assets/img/lucastaveirapage.png",
         subtitle: "Web",
-        title: "Institucional",
+        title: "Lucas Taveira Advogados",
         link: "//lucastaveiraadvogados.com.br/"
     },
     {
         imgSrc: "assets/img/arcoeducacaopage.png",
         subtitle: "Web",
-        title: "Institucional",
+        title: "Arco Educação",
         link: "//arcoeducacao.com.br/esg/"
     },
     {
