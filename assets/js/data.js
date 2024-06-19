@@ -36,7 +36,7 @@ const projects = [
         link: "assets/img/desafioxpnbapage.png"
     },
         {
-        imgSrc: "assets/img/pedidosdeservico.png",
+        imgSrc: "assets/img/pedidosdeservico.jpg",
         subtitle: "Web / Mobile",
         title: "Pedidos de serviço - Marinha do Brasil (SPI)",
         link: "//marcosdt.netlify.app/"
