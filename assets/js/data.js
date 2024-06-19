@@ -35,6 +35,12 @@ const projects = [
         title: "Desafio impossível XP/NBA",
         link: "assets/img/desafioxpnbapage.png"
     },
+        {
+        imgSrc: "assets/img/pedidosdeservico.png",
+        subtitle: "Web / Mobile",
+        title: "Pedidos de serviço - Marinha do Brasil (SPI)",
+        link: "//marcosdt.netlify.app/"
+    },
 ];
 
 const skills = [
