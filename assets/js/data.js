@@ -12,6 +12,12 @@ const projects = [
         link: "//www.pactoglobal.org.br/"
     },
     {
+        imgSrc: "assets/img/cop30-pacto.jpg",
+        subtitle: "Web",
+        title: "COP30 - Pacto Global",
+        link: "//cop30.pactoglobal.org.br/"
+    },
+    {
         imgSrc: "assets/img/lucastaveirapage.png",
         subtitle: "Web",
         title: "Lucas Taveira Advogados",
@@ -35,11 +41,41 @@ const projects = [
         title: "Desafio impossível XP/NBA",
         link: "assets/img/desafioxpnbapage.png"
     },
-        {
+    {
         imgSrc: "assets/img/pedidosdeservico.jpg",
         subtitle: "Web / Mobile",
         title: "Pedidos de serviço - Marinha do Brasil (SPI)",
         link: "//marcosdt.netlify.app/"
+    },
+    {
+        imgSrc: "assets/img/madeiramadeira.webp",
+        subtitle: "Web / Mobile",
+        title: "Madeira Madeira",
+        link: "assets/img/madeiramadeira.webp"
+    },
+    {
+        imgSrc: "assets/img/disneymoana.webp",
+        subtitle: "Web / Mobile",
+        title: "Disney - Moana",
+        link: "assets/img/disneymoana.webp"
+    },
+    {
+        imgSrc: "assets/img/multicoisas.webp",
+        subtitle: "Web / Mobile",
+        title: "Multicoisas",
+        link: "assets/img/multicoisas.webp"
+    },
+    {
+        imgSrc: "assets/img/sodiediadospais.webp",
+        subtitle: "Web / Mobile",
+        title: "Sodiê - Dia dos pais",
+        link: "assets/img/sodiediadospais.webp"
+    },
+    {
+        imgSrc: "assets/img/coletepremiado.webp",
+        subtitle: "Web / Mobile",
+        title: "XP Investimentos - Colete premiado",
+        link: "assets/img/coletepremiado.webp"
     },
 ];
 
