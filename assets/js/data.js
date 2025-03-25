@@ -1,5 +1,17 @@
 const projects = [
     {
+        imgSrc: "assets/img/promocaovoltaasaulas.com.br.png",
+        subtitle: "Web",
+        title: "Disney - Volta as aulas",
+        link: "assets/img/promocaovoltaasaulas.com.br.png"
+    },
+    {
+        imgSrc: "assets/img/cadfiber.webp",
+        subtitle: "Web",
+        title: "Cadfiber",
+        link: "//cadfiber.com/"
+    },
+    {
         imgSrc: "assets/img/maquira.jpg",
         subtitle: "Web",
         title: "Maquira Dental Group",
@@ -63,7 +75,7 @@ const projects = [
         imgSrc: "assets/img/multicoisas.webp",
         subtitle: "Web / Mobile",
         title: "Multicoisas",
-        link: "assets/img/multicoisas.webp"
+        link: "assets/img/multicoisa.webp"
     },
     {
         imgSrc: "assets/img/sodiediadospais.webp",
