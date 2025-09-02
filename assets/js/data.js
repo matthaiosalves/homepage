@@ -72,7 +72,7 @@ const projects = [
         link: "assets/img/disneymoana.webp"
     },
     {
-        imgSrc: "assets/img/multicoisas.webp",
+        imgSrc: "assets/img/multicoisa.webp",
         subtitle: "Web / Mobile",
         title: "Multicoisas",
         link: "assets/img/multicoisa.webp"
@@ -112,10 +112,10 @@ const skills = [
                 { name: "Laravel", level: "" },
                 { name: "CakePHP", level: "" },
                 { name: "WordPress", level: "" }
-          ],
-          [
+            ],
+            [
                 { name: "MySQL", level: "" },
-          ],
+            ],
         ]
     }
 ];
